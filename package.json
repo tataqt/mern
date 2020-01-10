@@ -1,0 +1,34 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "mern stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tataqt/mern.git"
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Tata <tata_98@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tataqt/mern/issues"
+  },
+  "homepage": "https://github.com/tataqt/mern#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.6"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2"
+  }
+}
