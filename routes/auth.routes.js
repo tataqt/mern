@@ -6,17 +6,17 @@ const bcryptjs = require("bcryptjs");
 const config = require("config");
 const router = Router();
 
-// /api/auth
+// /api/auth/registr
 router.post(
     '/registr',
     [
-        check('emamil', 'Некорректный email').isEmail(),
+        check('email', 'Некорректный email').isEmail(),
         check('password', 'Минимальная длина пароля 6 символов').isLength({ min: 6 })
     ],
     async (req, res) => {
         try {
             const errors = validationResult(req);
-
+            
             if (!errors.isEmpty()) {
                 return res.status(400).json({
                     errors: errors.array(),
@@ -44,7 +44,7 @@ router.post(
         }
     })
 
-// /api/login
+// /api/auth/login
 router.post(
     '/login',
     [
