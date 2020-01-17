@@ -1,5 +1,5 @@
 {
     "port": 5000,
     "mongoUri": "mongodb+srv://tata:opa4ki98@cluster0-9wecq.azure.mongodb.net/app?retryWrites=true&w=majority",
-    "jwtSecret": "mern course"
+    "jwtSecret": "mernCourse"
 }
