@@ -1,5 +1,6 @@
 {
     "port": 5000,
     "mongoUri": "mongodb+srv://tata:opa4ki98@cluster0-9wecq.azure.mongodb.net/app?retryWrites=true&w=majority",
-    "jwtSecret": "mernCourse"
+    "jwtSecret": "mernCourse",
+    "baseUrl": "http://localhost:5000/"
 }
