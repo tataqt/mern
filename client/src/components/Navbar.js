@@ -14,7 +14,7 @@ export const Navbar = () => {
 
     return (
         <nav>
-            <div className="nav-wrapper">
+            <div className="nav-wrapper blue darken-1">
                 <NavLink to="#" className="brand-logo">Сократить ссылку</NavLink>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
                     <li><NavLink to="/create">Создать</NavLink></li>
